@@ -2,7 +2,7 @@ import gkeepapi
 import googlemaps
 
 keep = gkeepapi.Keep()
-success = keep.login('nickeduncan@gmail.com', 'Hihakiya1!')
+success = keep.login('')
 
 gnotes = keep.all()
 for note in gnotes:
